@@ -1,0 +1,47 @@
+{% extends "layout.html" %}
+{% block body %}
+
+    <!-- end header section -->
+<!--  </div>-->
+
+  <!-- about section -->
+
+  <section class="about_section layout_padding">
+    <div class="container ">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="detail-box">
+            <div class="heading_container">
+              <h2>
+                We Provide Best Service
+              </h2>
+            </div>
+            <p>
+              We at <b>NoWorryWeFix</b> believes in the simple idea that quality work produces growth and success.
+              We understand that your devices, whether they are smartphones,
+              tablets or smart watches are essential to nearly every aspect of your life.
+              We know you rely on these devices for work and play. So, we focus on enhancing and
+              sustaining your increasingly important connected lifestyle.
+              NoWorryWeFix is the fastest and the best rated service provider
+              for all Apple and Android Devices across India.
+              We are a team of expert technicians having more than 20 years of experience in Android and iOS repair.
+              Select the device and the issue you wish to get repaired and watch how we bring your device back to life!
+            </p>
+<!--            <a href="">-->
+<!--              Read More-->
+<!--            </a>-->
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="img-box">
+            <img src="{{url_for('static',filename='images/about-img.jpg')}}" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end about section -->
+
+  <!-- footer section -->
+  {% endblock %}

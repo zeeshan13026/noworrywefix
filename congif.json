@@ -1,0 +1,16 @@
+{
+  "params": {
+    "local_server" : "True",
+    "local_uri": "mysql://root:@localhost/mobile_site",
+    "prod_uri": "mysql://root:@localhost/mobile_site",
+    "fb_url": "https://www.facebook.com/No-Worry-We-Fix-104134585705499",
+    "insta_url": "https://www.instagram.com/noworrywefix/",
+    "youtube_url": "",
+    "title":"No Worry We Fix",
+    "gmail-username":"noworrywefix@gmail.com",
+    "gmail-password": "duahvzdlekdydhnq",
+    "phone_num": "+91 8077753469, 8885611550",
+    "timing": "All Days : 10 am - 9 pm",
+    "address": "Aggarwal sweets beside Farmanwadi Abids Hyderabad"
+  }
+}

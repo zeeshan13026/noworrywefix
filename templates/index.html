@@ -1,0 +1,488 @@
+{% extends "layout.html" %}
+{% block body %}
+
+    <!-- slider section -->
+    <section class="slider_section ">
+      <div class="slider-bg">
+        <img src="{{url_for('static',filename='images/slider-bg.jpg') }}" alt="">
+      </div>
+      <div id="customCarousel1" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container ">
+              <div class="row">
+                <div class="col-lg-6">
+                  <div class="detail-box">
+                    <h1>
+                      Mobile problem? <br>
+                      No Worries,We will fix it
+                    </h1>
+                    <p>
+                      We are India’s leading smartphone repair destination for hundred's of people. Having more than 20 years of experience.
+                    </p>
+                    <a href="/contact">
+                      Book a repair
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+<!--          <div class="carousel-item">-->
+<!--            <div class="container ">-->
+<!--              <div class="row">-->
+<!--                <div class="col-lg-6">-->
+<!--                  <div class="detail-box">-->
+<!--                    <h1>-->
+<!--                      Computer problem? <br>-->
+<!--                      We will fix your computer-->
+<!--                    </h1>-->
+<!--                    <p>-->
+<!--                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste quam velit saepe dolorem deserunt quo quidem ad optio.-->
+<!--                    </p>-->
+<!--                    <a href="">-->
+<!--                      Read More-->
+<!--                    </a>-->
+<!--                  </div>-->
+<!--                </div>-->
+<!--              </div>-->
+<!--            </div>-->
+<!--          </div>-->
+<!--          <div class="carousel-item">-->
+<!--            <div class="container ">-->
+<!--              <div class="row">-->
+<!--                <div class="col-lg-6">-->
+<!--                  <div class="detail-box">-->
+<!--                    <h1>-->
+<!--                      Computer problem? <br>-->
+<!--                      We will fix your computer-->
+<!--                    </h1>-->
+<!--                    <p>-->
+<!--                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste quam velit saepe dolorem deserunt quo quidem ad optio.-->
+<!--                    </p>-->
+<!--                    <a href="">-->
+<!--                      Read More-->
+<!--                    </a>-->
+<!--                  </div>-->
+<!--                </div>-->
+<!--              </div>-->
+<!--            </div>-->
+<!--          </div>-->
+        </div>
+<!--        <div class="carousel_btn_box">-->
+<!--          <a class="carousel-control-prev" href="#customCarousel1" role="button" data-slide="prev">-->
+<!--            <i class="fa fa-angle-left" aria-hidden="true"></i>-->
+<!--            <span class="sr-only">Previous</span>-->
+<!--          </a>-->
+<!--          <a class="carousel-control-next" href="#customCarousel1" role="button" data-slide="next">-->
+<!--            <i class="fa fa-angle-right" aria-hidden="true"></i>-->
+<!--            <span class="sr-only">Next</span>-->
+<!--          </a>-->
+<!--        </div>-->
+      </div>
+    </section>
+    <!-- end slider section -->
+  </div>
+
+
+  <!-- service section -->
+
+  <section class="service_section layout_padding">
+    <div class="service_container">
+      <div class="container ">
+        <div class="heading_container heading_center">
+          <h2>
+            <span>Our Services</span>
+          </h2>
+          <p>
+            We provide quick service process at our mobile Store.
+            We are one of the best reasonable mobile phone service store,
+            where we are fixing all models of smartphones, tabs, smart watch and other electronic gadgets.
+            Our service included touch screen repair/replacement, liquid and water damage repair,
+            broken and physical damage repair, mainboard chip-level repairing, charging port, power button,
+            side button, camera repair, headphone jack, wifi, bluetooth, battery replacement,
+            software troubleshoot and up-gradation. Checkout our Facebook and Instagram page to see our work.
+          </p>
+        </div>
+        <div class="row">
+          <div class="col-md-6 ">
+            <div class="box ">
+              <div class="img-box">
+                <img src="{{url_for('static',filename='images/s1.png')}}" alt="">
+              </div>
+              <div class="detail-box">
+                <h5>
+                  Mobile Repair
+                </h5>
+                <p>
+                  We repair all models of Android, iPhone, iPad, tabs and smart watches.
+                </p>
+                <a href="/service">
+                  Read More
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 ">
+            <div class="box ">
+              <div class="img-box">
+                <img src="{{url_for('static',filename='images/s2.png')}}" alt="">
+              </div>
+              <div class="detail-box">
+                <h5>
+                  Hardware Replacement
+                </h5>
+                <p>
+                  We provide quality & original parts only!
+                </p>
+                <a href="/service">
+                  Read More
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 ">
+            <div class="box ">
+              <div class="img-box">
+                <img src="{{url_for('static',filename='images/s3.png')}}" alt="">
+              </div>
+              <div class="detail-box">
+                <h5>
+                  Broken Screen
+                </h5>
+                <p>
+                  We have expertise in screen replacement.We can replace screen of almost all the devices.
+                </p>
+                <a href="/service">
+                  Read More
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 ">
+            <div class="box ">
+              <div class="img-box">
+                <img src="{{url_for('static',filename='images/s4.png')}}" alt="">
+              </div>
+              <div class="detail-box">
+                <h5>
+                  Software Update
+                </h5>
+                <p>
+                  Expert in solving software problems.We have all the latest tools required for repair.
+                </p>
+                <a href="/service">
+                  Read More
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="btn-box">
+          <a href="/service">
+            See All
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end service section -->
+
+  <!-- about section -->
+
+  <section class="about_section">
+    <div class="container ">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="detail-box">
+            <div class="heading_container">
+              <h2>
+                We Provide Best Service
+              </h2>
+            </div>
+            <p>
+              We at <b>NoWorryWeFix</b> believes in the simple idea that quality work produces growth and success.
+              We understand that your devices, whether they are smartphones, tablets or smart watches
+              are essential to nearly every aspect of your life. We know you rely on these devices for work and play.
+              So, we focus on enhancing and sustaining your increasingly important connected lifestyle.
+            </p>
+            <a href="/about">
+              Read More
+            </a>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="img-box">
+            <img src="{{url_for('static',filename='images/about-img.jpg')}}" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end about section -->
+
+  <!-- why us section -->
+
+  <section class="why_us_section layout_padding">
+    <div class="container">
+      <div class="heading_container heading_center">
+        <h2>
+          Why Choose Us
+        </h2>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="box ">
+            <div class="img-box">
+              <img src="{{url_for('static',filename='images/w1.png')}}" alt="">
+            </div>
+            <div class="detail-box">
+              <h5>
+                Free Diagnostics
+              </h5>
+              <p>
+                We will run a free diagnostic check with your device before taking it to repair.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="box ">
+            <div class="img-box">
+              <img src="{{url_for('static',filename='images/w2.png')}}" alt="">
+            </div>
+            <div class="detail-box">
+              <h5>
+                Quick Repair Process
+              </h5>
+              <p>
+                Fastest turnaround breakfix services for your devices. Try it to believe it.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="box ">
+            <div class="img-box">
+              <img src="{{url_for('static',filename='images/w3.png')}}" alt="">
+            </div>
+            <div class="detail-box">
+              <h5>
+                Low Price Guarantee
+              </h5>
+              <p>
+                We will give you the best price available in the market along with the best service.
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- end why us section -->
+
+  <!-- client section -->
+
+  <section class="client_section layout_padding">
+    <div class="container">
+      <div class="heading_container heading_center">
+        <h2>
+          What Our Customers Say
+        </h2>
+      </div>
+      <div class="carousel-wrap">
+        <div class="owl-carousel">
+          <div class="item">
+            <div class="box">
+              <div class="client_id">
+<!--                <div class="img-box">-->
+<!--                  <img src="{{url_for('static',filename='images/client-1.jpg')}}" alt="">-->
+<!--                </div>-->
+                <div class="client_detail">
+                  <div class="client_info">
+                    <h6>
+                      Pavan
+                    </h6>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                  </div>
+                  <i class="fa fa-quote-left" aria-hidden="true"></i>
+                </div>
+              </div>
+              <div class="client_text">
+                <p>
+                  Very Nice service to get your mobile phone repaired at your door step.
+                  The engineer who visited my place was good, very polite and gave me the best service.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="box">
+              <div class="client_id">
+<!--                Below is the code for adding customer photo-->
+<!--                <div class="img-box">-->
+<!--&lt;!&ndash;                  <img src="{{url_for('static',filename='images/client-2.jpg')}}" alt="">&ndash;&gt;-->
+<!--                </div>-->
+                <div class="client_detail">
+                  <div class="client_info">
+                    <h6>
+                      Rahul
+                    </h6>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                  </div>
+                  <i class="fa fa-quote-left" aria-hidden="true"></i>
+                </div>
+              </div>
+              <div class="client_text">
+                <p> Dropped my Samsung J5 on the floor! Its rear camera and screen got damaged,
+                  I opted for NoWorryWeFix service and I am very much satisfied with there work ethics!
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="box">
+              <div class="client_id">
+<!--                <div class="img-box">-->
+<!--                  <img src="{{url_for('static',filename='images/client-1.jpg')}}" alt="">-->
+<!--                </div>-->
+                <div class="client_detail">
+                  <div class="client_info">
+                    <h6>
+                      Abhishek
+                    </h6>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                  </div>
+                  <i class="fa fa-quote-left" aria-hidden="true"></i>
+                </div>
+              </div>
+              <div class="client_text">
+                <p>
+                  My phone's screen got damaged and i thought it will be a nightmare to get it fixed,
+                  But thanks to NoWorryWeFix, They not only fixed my mobile but make it as new again.
+                </p>
+              </div>
+            </div>
+          </div>
+<!--          <div class="item">-->
+<!--            <div class="box">-->
+<!--              <div class="client_id">-->
+<!--&lt;!&ndash;                <div class="img-box">&ndash;&gt;-->
+<!--&lt;!&ndash;                  <img src="{{url_for('static',filename='images/client-2.jpg')}}" alt="">&ndash;&gt;-->
+<!--&lt;!&ndash;                </div>&ndash;&gt;-->
+<!--                <div class="client_detail">-->
+<!--                  <div class="client_info">-->
+<!--                    <h6>-->
+<!--                      Pavan-->
+<!--                    </h6>-->
+<!--                    <i class="fa fa-star" aria-hidden="true"></i>-->
+<!--                    <i class="fa fa-star" aria-hidden="true"></i>-->
+<!--                    <i class="fa fa-star" aria-hidden="true"></i>-->
+<!--                    <i class="fa fa-star" aria-hidden="true"></i>-->
+<!--                    <i class="fa fa-star" aria-hidden="true"></i>-->
+<!--                  </div>-->
+<!--                  <i class="fa fa-quote-left" aria-hidden="true"></i>-->
+<!--                </div>-->
+<!--              </div>-->
+<!--              <div class="client_text">-->
+<!--                <p>-->
+<!--                  Very Nice service to get your mobile phone repaired at your door step.-->
+<!--                  The engineer who visited my place was good, very polite and gave me the best service.-->
+<!--                </p>-->
+<!--              </div>-->
+<!--            </div>-->
+<!--          </div>-->
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end client section -->
+
+  <!-- contact section -->
+  <section class="contact_section layout_padding">
+
+    <div class="container">
+      <div class="heading_container heading_center">
+        <h2>
+          Book a Repair
+        </h2>
+      </div>
+      <div class="row">
+        <div class="col-md-9 mx-auto">
+          <div class="form_container">
+            <form>
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <input type="text" class="form-control" placeholder="Full Name" />
+                </div>
+                <div class="form-group col-md-6">
+                  <input type="text" class="form-control" placeholder="Email" />
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <input type="email" class="form-control" placeholder="Mobile Number" />
+                </div>
+                <div class="form-group col-md-6">
+                  <select class="form-control" name="prob" stylle="margin-top:30px  !important;" required="">
+                                    <option value="Battery Problem">Battery Problem</option>
+                                    <option value="Touch &amp; Glass Broken">Touch &amp; Glass Broken</option>
+                                    <option value="Charging Problem">Charging Problem</option>
+                                    <option value="Back Panel Problem">Back Panel Problem</option>
+                                    <option value="Handsfree Problem">Handsfree Problem</option>
+                                    <option value="Liquid-Water damaged(Diagnosis)">Liquid-Water damaged(Diagnosis)</option>
+                                    <option value="Speaker Problem">Speaker Problem</option>
+                                    <option value="Mic Problem">Mic Problem</option>
+                                    <option value="Sofware Problem">Sofware Problem</option>
+                                    <option value="Real Camera ( Back ) Problem">Real Camera ( Back ) Problem</option>
+                                    <option value="Phone Dead  Problem">Phone Dead  Problem</option>
+                                    <option value="LCD &amp; Touch ( Combo )  problem">LCD &amp; Touch ( Combo )  problem</option>
+                                    <option value="Frame &amp; cabinet ">Frame &amp; cabinet </option>
+                                    <option value="Power and Volume button">Power and Volume button</option>
+                                    <option value="Wifi (Diagnosis)">Wifi (Diagnosis)</option>
+                                    <option value="Wifi (Diagnosis)">Others</option>
+                  </select>
+<!--                  <input type="text" class="form-control" placeholder="Select Problem" />-->
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <input type="email" class="form-control" placeholder="Brand Name" />
+                </div>
+                <div class="form-group col-md-6">
+                  <input type="text" class="form-control" placeholder="Model Name" />
+                </div>
+              </div>
+              <div class="form-group ">
+                <input type="text" class="message-box" placeholder="Please describe your problem here...." />
+              </div>
+              <div class="btn-box">
+                <button type="submit">Submit</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end contact section -->
+
+  <!-- footer section -->
+ {% endblock %}

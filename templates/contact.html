@@ -1,0 +1,119 @@
+{% extends "layout.html" %}
+{% block body %}
+    <!-- end header section -->
+<!--  </div>-->
+
+ <!-- contact section -->
+  <section class="contact_section layout_padding">
+
+    <div class="container">
+      <div class="heading_container heading_center">
+        <h2>
+          Book a Repair
+        </h2>
+      </div>
+      <div class="row">
+        <div class="col-md-9 mx-auto">
+          <div class="form_container">
+            <form action="/contact" method="post" >
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <input type="text" name="fullname" class="form-control" placeholder="Full Name" />
+                </div>
+                <div class="form-group col-md-6">
+                  <input type="email" name="email" class="form-control" placeholder="Email" />
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <input type="text" name="mobile" class="form-control" placeholder="Mobile Number" />
+                </div>
+                <div class="form-group col-md-6">
+                  <select class="form-control" name="prob" stylle="margin-top:30px  !important;" required="">
+                                    <option value="Battery Problem">Battery Problem</option>
+                                    <option value="Touch &amp; Glass Broken">Touch &amp; Glass Broken</option>
+                                    <option value="Charging Problem">Charging Problem</option>
+                                    <option value="Back Panel Problem">Back Panel Problem</option>
+                                    <option value="Handsfree Problem">Handsfree Problem</option>
+                                    <option value="Liquid-Water damaged(Diagnosis)">Liquid-Water damaged(Diagnosis)</option>
+                                    <option value="Speaker Problem">Speaker Problem</option>
+                                    <option value="Mic Problem">Mic Problem</option>
+                                    <option value="Sofware Problem">Sofware Problem</option>
+                                    <option value="Real Camera ( Back ) Problem">Real Camera ( Back ) Problem</option>
+                                    <option value="Phone Dead  Problem">Phone Dead  Problem</option>
+                                    <option value="LCD &amp; Touch ( Combo )  problem">LCD &amp; Touch ( Combo )  problem</option>
+                                    <option value="Frame &amp; cabinet ">Frame &amp; cabinet </option>
+                                    <option value="Power and Volume button">Power and Volume button</option>
+                                    <option value="Wifi (Diagnosis)">Wifi (Diagnosis)</option>
+                                    <option value="Wifi (Diagnosis)">Others</option>
+                  </select>
+<!--                  <input type="text" class="form-control" placeholder="Select Problem" />-->
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <input type="text" name="brand" class="form-control" placeholder="Select Brand" />
+                </div>
+                <div class="form-group col-md-6">
+                  <input type="text" name="model" class="form-control" placeholder="Select Model" />
+                </div>
+              </div>
+              <div class="form-group ">
+                <input type="text" name="des" class="message-box" placeholder="Please describe your problem here...." />
+              </div>
+              <div class="btn-box">
+                <button type="submit">Submit</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end contact section -->
+
+<!--  &lt;!&ndash; contact section &ndash;&gt;-->
+<!--  <section class="contact_section layout_padding">-->
+
+<!--    <div class="container">-->
+<!--      <div class="heading_container heading_center">-->
+<!--        <h2>-->
+<!--          Contact Us-->
+<!--        </h2>-->
+<!--      </div>-->
+<!--      <div class="row">-->
+<!--        <div class="col-md-9 mx-auto">-->
+<!--          <div class="form_container">-->
+<!--            <form>-->
+<!--              <div class="form-row">-->
+<!--                <div class="form-group col-md-6">-->
+<!--                  <input type="text" class="form-control" placeholder="First Name" />-->
+<!--                </div>-->
+<!--                <div class="form-group col-md-6">-->
+<!--                  <input type="text" class="form-control" placeholder="Last Name" />-->
+<!--                </div>-->
+<!--              </div>-->
+<!--              <div class="form-row">-->
+<!--                <div class="form-group col-md-6">-->
+<!--                  <input type="email" class="form-control" placeholder="Email" />-->
+<!--                </div>-->
+<!--                <div class="form-group col-md-6">-->
+<!--                  <input type="text" class="form-control" placeholder="Phone Number" />-->
+<!--                </div>-->
+<!--              </div>-->
+<!--              <div class="form-group ">-->
+<!--                <input type="text" class="message-box" placeholder="Message" />-->
+<!--              </div>-->
+<!--              <div class="btn-box">-->
+<!--                <button type="submit">Submit</button>-->
+<!--              </div>-->
+<!--            </form>-->
+<!--          </div>-->
+<!--        </div>-->
+<!--      </div>-->
+<!--    </div>-->
+<!--  </section>-->
+<!--  &lt;!&ndash; end contact section &ndash;&gt;-->
+
+  <!-- footer section -->
+ {% endblock %}
